@@ -329,7 +329,7 @@ const definitions: Definition[] = [
         zigbeeModel: ['SIN-4-1-22_LEX'],
         model: 'SIN-4-1-22_LEX',
         vendor: 'ADEO',
-        description: 'ENKI LEXMAN Access Control',
+        description: 'ENKI LEXMAN access control',
         extend: extend.switch(),
         configure: async (device, coordinatorEndpoint, logger) => {
             const ep = device.getEndpoint(1);
